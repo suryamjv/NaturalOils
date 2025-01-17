@@ -6,6 +6,7 @@
     <meta name="description" content="Cold-Pressed Oil Extraction Business in Vijayawada, offering high-quality, chemical-free oils from natural seeds.">
     <meta name="keywords" content="cold-pressed oil, natural oils, groundnut oil, sunflower oil, organic oils, sustainable business">
     <title>Your Business Name - Cold-Pressed Oils</title>
+    <title>Order Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -31,9 +32,24 @@
         <div class="hero-text">
             <h2>Pure, Natural, and Sustainable Cold-Pressed Oils</h2>
             <p>Experience the finest quality oils extracted from groundnut, sunflower, mustard, coconut, and palm seeds.</p>
-            <a href="#products" class="cta-button">Order Now</a>
+            <button class="cta-button" onclick="showOrderForm()">Order Now</button>
         </div>
     </section>
+    <div id="order-form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7LNOVR77h3DbCIowjqrsRY2XBbzR5FFlGOfeGRJlXxPEu4w/viewform?embedded=true" 
+                width="640" height="1431" frameborder="0" marginheight="0" marginwidth="0">
+                Loading…
+        </iframe>
+    </div>
+
+    <script>
+        // Function to show the form when the "Order Now" button is clicked
+        function showOrderForm() {
+            var form = document.getElementById('order-form');
+            form.style.display = 'block'; // Show the form
+        }
+    </script>
+
 
     <!-- About Us Section -->
     <section id="about" class="about">
