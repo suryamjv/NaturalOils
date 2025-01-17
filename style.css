@@ -74,6 +74,34 @@ header nav a {
     border-radius: 5px;
     text-decoration: none;
 }
+/* Styling for the "Order Now" Button */
+.cta-button {
+    background-color: #e74c3c;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Initially hide the Google Form */
+#order-form {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the embedded Google Form */
+#order-form iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
 
 /* Section Styles */
 section {
